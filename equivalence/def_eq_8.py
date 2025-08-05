@@ -43,7 +43,7 @@ def main(
         working_root: str,
         dataset_root: str,
         repl_root: str,
-        num_concurrency: int=4,
+        num_concurrency: int=8,
         ):
     saved_args = {**locals()}
     os.makedirs(working_root, exist_ok=True)
