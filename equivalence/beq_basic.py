@@ -234,7 +234,7 @@ def main(
         repl_root: str,
         url: str,
         try_num: int=8,
-        num_concurrency: int=16,
+        num_concurrency: int=1,
         max_tokens: int=512,
         temperature: Optional[float]=None
         ):
